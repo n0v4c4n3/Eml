@@ -12,8 +12,7 @@ Node app to parse EML files
 * MailParser
 * Multer
 
-## Usage 
-*Remember to unescape the HTML content*
+## Usage
 Requests:
 ```shell
 curl -X POST \
