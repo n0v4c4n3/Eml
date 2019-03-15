@@ -1,25 +1,19 @@
 {
   "name": "eml-reader",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Render content of email source",
+  "description": "Node app for emls",
   "main": "app.js",
   "scripts": {
     "start": "npm run build && node app.js",
-    "build": "webpack --mode production",
+    "build": "npm clean-install",
     "test": "echo \"Error: no test specified\""
   },
-  "author": "Sophia Antipenko <sophia@antipenko.pp.ua>",
-  "license": "MIT",
+  "author": "Gaby RM",
+  "license": "Yolo",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "ejs": "^2.2.4",
     "express": "^4.11.1",
-    "jquery": "^3.3.1",
     "mailparser": "^0.4.8",
-    "multer": "^0.1.7",
-    "save-file": "^1.2.0",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^3.1.2"
+    "multer": "^0.1.7"
   }
 }
