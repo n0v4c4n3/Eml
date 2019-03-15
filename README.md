@@ -1,6 +1,8 @@
 # Eml
+
 Node app to parse EML files
-In: .eml > Out: json response with .html inline
+* In: .eml 
+* Out: json response with .html inline
 `npm install / start`
 
 ## Dependencies 
