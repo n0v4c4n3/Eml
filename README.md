@@ -3,6 +3,8 @@
 Node app to parse EML files
 * In: .eml 
 * Out: json response with .html inline
+
+## Run
 `npm install / start`
 
 ## Dependencies 
@@ -11,7 +13,7 @@ Node app to parse EML files
 * Multer
 
 ## Usage 
-
+*Remember to unescape the HTML content*
 Requests:
 ```shell
 curl -X POST \
@@ -24,7 +26,7 @@ curl -X POST \
 Response:
 ```json
 {
-    "html": "<!DOCTYPE html PUBLIC ... >Html content</body>\n</html>",
+    "html": "<!DOCTYPE html PUBLIC ... >Escaped Html content</body>\n</html>",
     "text": "Text content",
     "headers": {
         "received": [
