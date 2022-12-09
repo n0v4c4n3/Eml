@@ -12,7 +12,7 @@
   "author": "Gaby RM",
   "license": "Yolo",
   "dependencies": {
-    "express": "^4.11.1",
+    "express": "^4.17.3",
     "mailparser": "^0.4.8",
     "multer": "^0.1.7"
   }
